@@ -4,5 +4,6 @@ set fish_greeting
 nvm use default > /dev/null
 alias vi "nvim"
 alias vim "nvim"
+alias cpc="xclip -sel c < "
 set -x GPG_TTY (tty)
 end
