@@ -1,0 +1,8 @@
+# Ignore everything
+*
+nvim/plugin
+# Don't ignore directories, so we can recurse into them
+!*/
+# Don't ignore .gitignore and *.foo files
+!.gitignore
+!nvim/*
