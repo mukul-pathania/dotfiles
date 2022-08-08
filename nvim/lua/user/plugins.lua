@@ -95,6 +95,9 @@ return packer.startup(function(use)
   use { "akinsho/bufferline.nvim", lock = true, commit = "2e5d92efacf40d488c4647a9e3e5100357b184cf" }
   use { "moll/vim-bbye", lock = true, commit = "25ef93ac5a87526111f43e5110675032dbcacf56" }
 
+  --lualine
+  use { "nvim-lualine/lualine.nvim", lock = true, commit = "4b5048aee113831b4ef2e2d3b9e62084b3b7e402" }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
