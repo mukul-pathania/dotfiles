@@ -98,6 +98,25 @@ return packer.startup(function(use)
   --lualine
   use { "nvim-lualine/lualine.nvim", lock = true, commit = "4b5048aee113831b4ef2e2d3b9e62084b3b7e402" }
 
+  --toggleterm
+  use { "akinsho/toggleterm.nvim", lock = true, commit = "dfce846c609b83feef3786930c5bd7e4bad851ac" }
+
+  --project
+  use { "ahmedkhalf/project.nvim", lock = true, commit = "090bb11ee7eb76ebb9d0be1c6060eac4f69a240f" }
+
+  --impatient
+  use { "lewis6991/impatient.nvim", lock = true, commit = "4ccbe749ce439fa25d387d459e8c339131cc5d1f" }
+
+  --indentation
+  use { "lukas-reineke/indent-blankline.nvim", lock = true, commit = "c15bbe9f23d88b5c0b4ca45a446e01a0a3913707" }
+
+  --alpha
+  use { "goolord/alpha-nvim", lock = true, commit = "d688f46090a582be8f9d7b70b4cf999b780e993d" }
+
+  --which-key
+  use { "folke/which-key.nvim", lock = true, commit = "bd4411a2ed4dd8bb69c125e339d837028a6eea71" }
+
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
