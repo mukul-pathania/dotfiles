@@ -65,3 +65,7 @@ keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
 -- Remove search highlighting
 keymap("n", "<leader>h", "<cmd>nohlsearch<cr>", opts)
+
+--Stop deleted text from interferring with yanked text
+keymap("n", "d", "\"_d", opts)
+keymap("v", "d", "\"_d", opts)
