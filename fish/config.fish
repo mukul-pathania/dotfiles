@@ -5,5 +5,7 @@ nvm use default > /dev/null
 alias vi "nvim"
 alias vim "nvim"
 alias cpc="xclip -sel c < "
+alias ls="exa"
+alias ll="exa -l"
 set -x GPG_TTY (tty)
 end
