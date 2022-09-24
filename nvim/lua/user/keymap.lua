@@ -69,3 +69,7 @@ keymap("n", "<leader>h", "<cmd>nohlsearch<cr>", opts)
 --Stop deleted text from interferring with yanked text
 keymap("n", "d", "\"_d", opts)
 keymap("v", "d", "\"_d", opts)
+
+-- Changing brackets for arrays copied from leetcode
+keymap("n", "ba", ":s/\\[/{/g<CR>", opts)
+keymap("n", "bb", ":s/\\]/}/g<CR>", opts)
