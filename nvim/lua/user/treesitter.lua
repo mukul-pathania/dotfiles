@@ -6,7 +6,7 @@ end
 configs.setup {
   -- A list of parser names, or "all"
   ensure_installed = { "c", "cpp", "rust", "lua", "javascript", "typescript", "yaml", "toml", "python", "json", "java",
-    "html", "css", "go", "bash", },
+    "html", "css", "go", "bash", "svelte" },
   sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)
   ignore_install = { "" }, -- List of parsers to ignore installing
   autopairs = {
