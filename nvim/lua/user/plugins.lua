@@ -117,7 +117,9 @@ return packer.startup(function(use)
   use { "folke/which-key.nvim", lock = true, commit = "bd4411a2ed4dd8bb69c125e339d837028a6eea71" }
 
   --color highlighting
-  use { "NvChad/nvim-colorizer.lua", lock = true, commit = "9dd7ecde55b06b5114e1fa67c522433e7e59db8b" }
+  use { "NvChad/nvim-colorizer.lua", lock = true, commit = "9dd7ecde55b06b5114e1fa67c522433e7e59db8b",
+    config = require('colorizer').setup()
+  }
 
 
   -- Automatically set up your configuration after cloning packer.nvim
