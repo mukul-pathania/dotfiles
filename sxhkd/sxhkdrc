@@ -17,7 +17,7 @@ super + e
     pcmanfm
 
 #screenshot
-ctrl + p
+ctrl + shift + p
     flameshot gui
 
 #random wallpaper
