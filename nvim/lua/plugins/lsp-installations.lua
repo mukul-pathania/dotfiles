@@ -1,0 +1,27 @@
+return {
+  "williamboman/mason.nvim",
+  opts = {
+    ensure_installed = {
+      "stylua",
+      "shfmt",
+      "bash-language-server",
+      "clangd",
+      "cpptools",
+      "css-lsp",
+      "cssmodules-language-server",
+      "dart-debug-adapter",
+      "dockerfile-language-server",
+      "eslint-lsp",
+      "flake8",
+      "gopls",
+      "json-lsp",
+      "lua-language-server",
+      "prisma-language-server",
+      "rust-analyzer",
+      "svelte-language-server",
+      "tailwindcss-language-server",
+      "typescript-language-server",
+      "prettierd",
+    },
+  },
+}
